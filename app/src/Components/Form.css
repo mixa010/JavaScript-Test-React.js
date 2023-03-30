@@ -1,0 +1,83 @@
+#add-employee-form {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 400px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 525px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-name: fade-in;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+}
+
+#add-employee-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #555;
+}
+
+#add-employee-form input[type="text"],
+#add-employee-form select {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  width: 380px;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  color: #333;
+}
+
+#add-employee-form button[type="submit"] {
+  background-color: #17cf47;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: Poppins, "sans-serif";
+  transition: background-color 0.3s ease-in-out;
+}
+
+#add-employee-form button[type="submit"]:hover {
+  background-color: #12a137;
+}
+
+#add-employee-form button[type="submit"]:active {
+  background-color: #0d7328;
+}
+
+#close-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  float: right;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#close-button:hover {
+  background-color: #c82333;
+}
+
+#close-button:active {
+  background-color: #a30012;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -60%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}

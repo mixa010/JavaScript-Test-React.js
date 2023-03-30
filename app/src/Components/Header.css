@@ -1,0 +1,46 @@
+#add-employee-button {
+  margin-bottom: 20px;
+}
+
+#add-employee-button {
+  margin-top: 2px;
+  margin-right: 73px;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  max-height: 50px;
+  padding: 1rem 2rem;
+  outline: none;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  background-color: #17cf47;
+  color: #ffffff;
+  float: right;
+  font-weight: 400;
+  line-height: 1.7;
+  position: relative;
+  font-family: Poppins, "sans-serif";
+}
+
+#add-employee-button:hover {
+  background-color: #12a137;
+}
+#add-employee-button:active {
+  background-color: #0d7328;
+}
+
+#logo {
+  width: 9%;
+  float: left;
+  margin-left: 60px;
+}
+
+div#h1 {
+  display: block;
+  padding-top: 22px;
+  padding-bottom: 1px;
+  width: 100%;
+  text-align: center;
+  background-color: #eaf8fd;
+  color: #0d3f67;
+}
